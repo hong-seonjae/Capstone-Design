@@ -1,0 +1,14 @@
+# 데이터 폴더 무시
+data/
+
+# 모델 체크포인트, numpy 파일 등 무시
+*.pth
+*.tar
+*.npy
+*.pth.tar
+
+*.pth.tar
+*.pth.tar
+*.tar
+*.npy
+*.pt

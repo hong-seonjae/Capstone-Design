@@ -1,0 +1,27 @@
+        # with torch.no_grad():
+        #     net.val_start()
+
+        #     # labeled data
+        #     img_emb_l, cap_emb_l, cap_len_l = net.forward_emb(batch_images_l, batch_text_l, batch_lengths_l)
+        #     sims_l = net.forward_sim(img_emb_l, cap_emb_l, cap_len_l)
+        #     S_it_l = sims_l.diag()
+        #     P_l = adaptive_prediction_hard_negative(S_it_l, sims_l, temperature=0.07)
+
+        #     ptl = batch_prob_l * batch_labels_l + (1 - batch_prob_l) * P_l.unsqueeze(1)
+        #     targets_l = ptl.detach()
+        #     pred_labels_l.append(ptl.cpu().numpy())
+
+        #     # unlabeled data
+        #     img_emb_u1, cap_emb_u1, cap_len_u1 = net.forward_emb(batch_images_u, batch_text_u, batch_lengths_u)
+        #     sims_u1 = net.forward_sim(img_emb_u1, cap_emb_u1, cap_len_u1)
+        #     S_it_u1 = sims_u1.diag()
+        #     P_u1 = adaptive_prediction_hard_negative(S_it_u1, sims_u1, temperature=0.07)
+
+        #     img_emb_u2, cap_emb_u2, cap_len_u2 = net2.forward_emb(batch_images_u, batch_text_u, batch_lengths_u)
+        #     sims_u2 = net2.forward_sim(img_emb_u2, cap_emb_u2, cap_len_u2)
+        #     S_it_u2 = sims_u2.diag()
+        #     P_u2 = adaptive_prediction_hard_negative(S_it_u2, sims_u2, temperature=0.07)
+
+        #     ptu = (P_u1 + P_u2) / 2
+        #     targets_u = ptu.view(-1, 1).detach()
+        #     pred_labels_u.append(ptu.cpu().numpy())

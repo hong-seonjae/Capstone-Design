@@ -1,0 +1,6 @@
+negative_epoch: 0 | r1: 0.0 | r5: 0.5 | r10: 0.5 | r1i: 0.0 | r5i: 0.0 | r10i: 0.2
+negative_epoch: 1 | r1: 0.0 | r5: 0.5 | r10: 0.5 | r1i: 0.0 | r5i: 0.0 | r10i: 0.2
+negative_epoch: 2 | r1: 0.0 | r5: 0.5 | r10: 0.5 | r1i: 0.0 | r5i: 0.0 | r10i: 0.2
+negative_epoch: 3 | r1: 0.0 | r5: 0.5 | r10: 0.5 | r1i: 0.0 | r5i: 0.0 | r10i: 0.2
+negative_epoch: 4 | r1: 0.0 | r5: 0.5 | r10: 0.5 | r1i: 0.0 | r5i: 0.0 | r10i: 0.2
+epoch: 0 | r1: 0.5 | r5: 3.0 | r10: 6.5 | r1i: 0.5 | r5i: 2.5 | r10i: 5.6
