@@ -209,3 +209,4 @@ def adaptive_prediction_hard_negative_bidirectional(S_it_matrix, temperature=0.0
 
     # soft label = sigmoid( margin / temperature )
     return torch.sigmoid(margin / temperature)  # [B]
+
